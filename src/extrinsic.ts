@@ -1,4 +1,4 @@
-import { ApiPromise, Keyring } from "@polkadot/api";
+import { ApiPromise, WsProvider, Keyring } from "@polkadot/api";
 import { AddressOrPair } from "@polkadot/api/types";
 
 type Extrinsic = {
